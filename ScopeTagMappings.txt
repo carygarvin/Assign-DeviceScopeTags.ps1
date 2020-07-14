@@ -1,0 +1,6 @@
+@contoso.com=contoso
+@tailspin.com=tailspin
+@woodgrovebank=woodgrovebank
+@wingtip=wingtip
+@fabrikam.com=fabrikam
+
