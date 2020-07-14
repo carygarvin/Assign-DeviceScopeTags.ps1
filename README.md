@@ -40,6 +40,6 @@ The present Script relies on input file '_ScopeTagMappings.txt_' to be present i
 The input file '_ScopeTagMappings.txt_' is read and loaded into a Hashtable/Dictionnary variable called '**$SMTPDomain2DeviceScopeTag**' thus containing SMTP Domains to corresponding Intune Scope Tags mapping pairs.  
 Mappings are defined in this file in the format '@CompanyDomain.tld=CompanyScopeTag' such as the following example:  
 
-                          '@contoso.com=contoso'
+                          @contoso.com=contoso
 
 See sample file 'ScopeTagMappings.txt' for the correct input format for several Domain to Scope Tag pairs.  
