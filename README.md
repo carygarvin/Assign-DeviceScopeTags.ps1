@@ -34,4 +34,4 @@ The present Script relies on input file '_ScopeTagMappings.txt_' to be present i
 
                           @contoso.com=contoso
 
-See sample file '_ScopeTagMappings.txt_' for the correct input format for several Domain to Scope Tag pairs.  
+See sample file '_ScopeTagMappings.txt_' for the correct input format for several Domains to Scope Tag pairs.  
