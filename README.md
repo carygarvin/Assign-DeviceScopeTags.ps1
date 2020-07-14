@@ -12,7 +12,7 @@ Script Name  : Assign-DeviceScopeTags.ps1
 Version      : 1.0  
 Release date : 06/01/2019 (CET)  
 
-History      : This script was written before Microsoft added the feature to set Device Scope tags based on groups. Before that Office 365 Intune feature was introduced, newly enrolled devices would need to have their Scope Tags assigned one by one by the Intune Administrator before Intune policies would trickle down onto the device. The present script alleviated this by allowing the Intune Administrator to programmatically set Scope Tags for all newly enrolled devices in one shot by running the present script based on a simple SMTP Domaint to Scope Tag mapping table.  
+History      : This script was written before Microsoft added to the Intune MDM product the feature to set Device Scope tags based on groups. Before that Office 365 Intune feature was introduced, newly enrolled devices would need to have their Scope Tags assigned one by one by the Intune Administrator before Intune policies would trickle down onto the device. The present script alleviated this by allowing the Intune Administrator to programmatically set Scope Tags for all newly enrolled devices in one shot by running the present script based on a simple SMTP Domaint to Scope Tag mapping table.  
                PowerShell Script Main written by Cary GARVIN using only Functions from 2 scripts supplied by Microsoft.  
                
 __Functions from the following 2 official Microsoft scripts are used in the present script:__  
