@@ -12,9 +12,7 @@ Script Name  : Assign-DeviceScopeTags.ps1
 Version      : 1.0  
 Release date : 06/01/2019 (CET)  
 
-History      : This script was written before Microsoft added the feature to set Device Scope tags based on groups.  
-               Before that Office 365 Intune feature was introduced, newly enrolled devices would need to have their Scope Tags assigned one by one by the Intune Administrator before Intune policies would trickle down onto the device.  
-               The present script alleviated this by allowing the Intune Administrator to programmatically set Scope Tags for all newly enrolled devices in one shot by running the present script based on a simple SMTP Domaint to Scope Tag mapping table.  
+History      : This script was written before Microsoft added the feature to set Device Scope tags based on groups. Before that Office 365 Intune feature was introduced, newly enrolled devices would need to have their Scope Tags assigned one by one by the Intune Administrator before Intune policies would trickle down onto the device. The present script alleviated this by allowing the Intune Administrator to programmatically set Scope Tags for all newly enrolled devices in one shot by running the present script based on a simple SMTP Domaint to Scope Tag mapping table.  
                PowerShell Script Main written by Cary GARVIN using only Functions from 2 scripts supplied by Microsoft.  
                
 __Functions from the following 2 official Microsoft scripts are used in the present script:__  
@@ -36,9 +34,7 @@ Purpose      : The present Script is written for organizations having several su
                The present script alleviated this by allowing the Intune Administrator to set Scope Tags for all newly enrolled devices properly in one shot by running the present script.  
 
 # Script configuration:  
-The present Script relies on input file '_ScopeTagMappings.txt_' to be present in the 'My Documents' folder of the current user.  
-The input file '_ScopeTagMappings.txt_' is read and loaded into a Hashtable/Dictionnary variable called '**$SMTPDomain2DeviceScopeTag**' thus containing SMTP Domains to corresponding Intune Scope Tags mapping pairs.  
-Mappings are defined in this file in the format '@CompanyDomain.tld=CompanyScopeTag' such as the following example:  
+The present Script relies on input file '_ScopeTagMappings.txt_' to be present in the 'My Documents' folder of the current user. The input file '_ScopeTagMappings.txt_' is read and loaded into a Hashtable/Dictionnary variable called '**$SMTPDomain2DeviceScopeTag**' thus containing SMTP Domains to corresponding Intune Scope Tags mapping pairs. Mappings are defined in this file in the format '@CompanyDomain.tld=CompanyScopeTag' such as the following example:  
 
                           @contoso.com=contoso
 
