@@ -23,7 +23,7 @@ __Functions from the following 2 official Microsoft scripts are used in the pres
                
 __The Microsoft functions used from both scripts are as follows:__  
 * Function '_Get-AuthToken_' from script '_RBAC_ScopeTags_DeviceAssign.ps1_' or script '_ManagedDevices_Get.ps1_'  
-* Function '_Get-ManagedDevices_'	from version with ID parameter from script '_RBAC_ScopeTags_DeviceAssign.ps1_' and not the one from script '_ManagedDevices_Get.ps1_' without ID parameter  
+* Function '_Get-ManagedDevices_'	from version with ID parameter from script '_RBAC_ScopeTags_DeviceAssign.ps1_' and not the one found in script '_ManagedDevices_Get.ps1_' without ID parameter  
 * Function '_Get-ManagedDeviceUser_' from script '_ManagedDevices_Get.ps1_'  
 * Function '_Get-AADUser_' from script '_ManagedDevices_Get.ps1_'  
 * Function '_Get-RBACScopeTag_' from script '_RBAC_ScopeTags_DeviceAssign.ps1_'  
