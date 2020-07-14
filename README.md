@@ -22,12 +22,12 @@ __Functions from the following 2 official Microsoft scripts are used in the pres
 * Script 'ManagedDevices_Get.ps1'		(https://github.com/microsoftgraph/powershell-intune-samples/tree/master/ManagedDevices)  
                
 __The Microsoft functions used from both scripts are as follows:__  
-* Function 'Get-AuthToken'			 From script 'RBAC_ScopeTags_DeviceAssign.ps1' or script 'ManagedDevices_Get.ps1'  
-* Function 'Get-ManagedDevices'		 Version with ID parameter from script 'RBAC_ScopeTags_DeviceAssign.ps1' and not the one from script 'ManagedDevices_Get.ps1' without ID parameter  
-* Function 'Get-ManagedDeviceUser'	  	 From script 'ManagedDevices_Get.ps1'  
-* Function 'Get-AADUser'			 From script 'ManagedDevices_Get.ps1'  
-* Function 'Get-RBACScopeTag'		 From script 'RBAC_ScopeTags_DeviceAssign.ps1'  
-* Function 'Update-ManagedDevices'		 From script 'RBAC_ScopeTags_DeviceAssign.ps1'  
+* Function '_Get-AuthToken_'			 From script '_RBAC_ScopeTags_DeviceAssign.ps1_' or script '_ManagedDevices_Get.ps1_'  
+* Function '_Get-ManagedDevices_'		 Version with ID parameter from script '_RBAC_ScopeTags_DeviceAssign.ps1_' and not the one from script '_ManagedDevices_Get.ps1_' without ID parameter  
+* Function '_Get-ManagedDeviceUser_'	  	 From script '_ManagedDevices_Get.ps1_'  
+* Function '_Get-AADUser_'			 From script '_ManagedDevices_Get.ps1_'  
+* Function '_Get-RBACScopeTag_'		 From script '_RBAC_ScopeTags_DeviceAssign.ps1_'  
+* Function '_Update-ManagedDevices_'		 From script '_RBAC_ScopeTags_DeviceAssign.ps1_'  
                  
 Purpose      : The present Script is written for organizations having several subsidiaries and wishing to handle mobile devices for each entity in a particular way through the use of specific Intune Scope Tags.  
                The  Script sets Intune Scope Tags on all newly enrolled mobile devices (thus without any Scope Tag assigned) based on the Domain portion of the SMTP Address taken from the device's associated user's UPN (User Principal Name) of the user who enrolled the device.  
