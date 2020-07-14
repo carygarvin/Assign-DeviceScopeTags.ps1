@@ -16,10 +16,10 @@ History      : This script was written before Microsoft added the feature to set
                Before that Office 365 Intune feature was introduced, newly enrolled devices would need to have their Scope Tags assigned one by one by the Intune Administrator before Intune policies would trickle down onto the device.  
                The present script alleviated this by allowing the Intune Administrator to programmatically set Scope Tags for all newly enrolled devices in one shot by running the present script based on a simple SMTP Domaint to Scope Tag mapping table.  
                PowerShell Script Main written by Cary GARVIN using only Functions from 2 scripts supplied by Microsoft.  
-               Functions from the following 2 official Microsoft scripts are used in the present script:  
+               __Functions from the following 2 official Microsoft scripts are used in the present script:__  
 * Script 'RBAC_ScopeTags_DeviceAssign.ps1'	(https://github.com/microsoftgraph/powershell-intune-samples/tree/master/RBAC)  
 * Script 'ManagedDevices_Get.ps1'		(https://github.com/microsoftgraph/powershell-intune-samples/tree/master/ManagedDevices)  
-               The Microsoft functions used from both scripts are as follows:   
+               __The Microsoft functions used from both scripts are as follows:__   
 * Function 'Get-AuthToken'			 From script 'RBAC_ScopeTags_DeviceAssign.ps1' or script 'ManagedDevices_Get.ps1'  
 * Function 'Get-ManagedDevices'		 Version with ID parameter from script 'RBAC_ScopeTags_DeviceAssign.ps1' and not the one from script 'ManagedDevices_Get.ps1' without ID parameter  
 * Function 'Get-ManagedDeviceUser'	  	 From script 'ManagedDevices_Get.ps1'  
