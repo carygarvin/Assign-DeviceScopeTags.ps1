@@ -42,4 +42,4 @@ Mappings are defined in this file in the format '@CompanyDomain.tld=CompanyScope
 
                           @contoso.com=contoso
 
-See sample file 'ScopeTagMappings.txt' for the correct input format for several Domain to Scope Tag pairs.  
+See sample file '_ScopeTagMappings.txt_' for the correct input format for several Domain to Scope Tag pairs.  
