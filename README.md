@@ -4,7 +4,7 @@ PowerShell Script to automatically assign Intune Device Scope Tags based on Prim
 Author       : Cary GARVIN (Script Main body)  
 Credit       : Microsoft   (Script functions)  
 Contact      : cary(at)garvin.tech  
-LinkedIn     : https://www.linkedin.com/in/cary-garvin-99909582  
+LinkedIn     : https://www.linkedin.com/in/cary-garvin  
 GitHub       : https://github.com/carygarvin/  
 
 
