@@ -16,8 +16,8 @@ History      : This script was written before Microsoft added to the Intune MDM 
                PowerShell Script Main written by Cary GARVIN using only Functions from 2 scripts supplied by Microsoft.  
                
 __Functions from the following 2 official Microsoft scripts are used in the present script:__  
-* Script 'RBAC_ScopeTags_DeviceAssign.ps1'	(https://github.com/microsoftgraph/powershell-intune-samples/tree/master/RBAC)  
-* Script 'ManagedDevices_Get.ps1'		(https://github.com/microsoftgraph/powershell-intune-samples/tree/master/ManagedDevices)  
+* Script 'RBAC_ScopeTags_DeviceAssign.ps1'	[https://github.com/microsoftgraph/powershell-intune-samples/tree/master/RBAC](https://github.com/microsoftgraph/powershell-intune-samples/tree/master/RBAC)  
+* Script 'ManagedDevices_Get.ps1'		[https://github.com/microsoftgraph/powershell-intune-samples/tree/master/ManagedDevices](https://github.com/microsoftgraph/powershell-intune-samples/tree/master/ManagedDevices)  
                
 __The Microsoft functions used from both scripts are as follows:__  
 * Function '_Get-AuthToken_' from script '_RBAC_ScopeTags_DeviceAssign.ps1_' or script '_ManagedDevices_Get.ps1_'  
