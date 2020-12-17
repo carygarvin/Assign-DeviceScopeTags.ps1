@@ -9,7 +9,7 @@ GitHub       : [https://github.com/carygarvin/](https://github.com/carygarvin/)
 
 
 Script Name  : [Assign-DeviceScopeTags.ps1](https://github.com/carygarvin/Assign-DeviceScopeTags.ps1/)  
-Script URL   : [https://carygarvin.github.io/Assign-DeviceScopeTags.ps1/](https://carygarvin.github.io/Assign-DeviceScopeTags.ps1/)
+Script URL   : [https://carygarvin.github.io/Assign-DeviceScopeTags.ps1/](https://carygarvin.github.io/Assign-DeviceScopeTags.ps1/)  
 Version      : 1.0  
 Release date : 06/01/2019 (CET)  
 
